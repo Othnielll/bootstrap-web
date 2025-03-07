@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Project</title>
+
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+            <div class="container">
+                <h3 class="navbar-brand">Norah Horowitz, Ph.D</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#area of expertise">Areas of Expertise</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#my appraoch">My Approach</a></li>
+                        <li class="nav-item"><a class="nav-link" href="podcast.html">Podcast</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Expertise Section -->
+        <div class="container-fluid" id="area of expertise">
+            <div class="row full-height">
+                <!-- Image Section (Left) -->
+                <div class="col-md-6">
+                    <img src="images/area1.jpg" class="img-fluid w-100" alt="Expertise Image">
+                </div>
+
+                <!-- Text Section (Right) -->
+                <div class="col-md-6">
+                    <div class="textcontainer5 px-5">
+                        <h4 class="aexp slide-in-bottom">Area of Expertise</h4>
+                        <h4 class="slide-in-left">Counselling</h4>
+                        <div class="line slide-in-right"></div>
+                        <p class="slide-in-bottom">
+                            I'm a paragraph. Click here to add your own text and edit me. It’s easy.<br>
+                            Just click “Edit Text” or double-click me to add your own content and make <br>
+                            changes to the font. I’m a great place for you to tell a story and let your <br>
+                            users know a little more about you.
+                        </p>
+                        <h4 class="slide-in-left">Cognitive Behavioural Therapy</h4>
+                        <div class="line slide-in-right"></div>
+                        <p>
+                            I'm a paragraph. Click here to add your own text and edit me. It’s easy.<br>
+                            Just click “Edit Text” or double-click me to add your own content and make <br>
+                            changes to the font. I’m a great place for you to tell a story and let your <br>
+                            users know a little more about you.
+                        </p>
+                        <h4 class="slide-in-left">Psychotherapy</h4>
+                        <div class="line slide-in-right"></div>
+                        <p class="slide-in-bottom">
+                            I'm a paragraph. Click here to add your own text and edit me. It’s easy.<br>
+                            Just click “Edit Text” or double-click me to add your own content and make <br>
+                            changes to the font. I’m a great place for you to tell a story and let your <br>
+                            users know a little more about you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Section -->
+         <div id="my appraoch">
+        <div class="container-fluid">
+            <div class="row full-height">
+                <!-- Text Section (Left) -->
+                <div class="col-md-6">
+                    <div class="textcontainer6 px-5">
+                        <h4 class="aexp slide-in-left">My Approach</h4>
+                        <div class="line slide-in-right" id="line6"></div>
+                        <p class="slide-in-bottom">
+                            I'm a paragraph. Click here to add your own text and edit me. It’s easy.<br>
+                            Just click “Edit Text” or double-click me to add your own content and make <br>
+                            changes to the font. I’m a great place for you to tell a story and let your <br>
+                            users know a little more about you.
+                        </p>
+                        <p class="slide-in-bottom">
+                            This is a great space to write long text about your company and your <br>
+                            services. You can use this space to go into a little more detail about your<br>
+                            company. Talk about your team and what services you provide. Tell your <br>
+                            visitors the story of how you came up with the idea for your business and <br>
+                            what makes you different from your competitors.
+                        </p>
+                        <p class="slide-in-bottom">
+                            At Wix, we’re passionate about making templates that allow you to build<br>
+                            fabulous websites. Keep up to date with New Releases and what’s Coming<br>
+                            Soon in Wix support. Feel free to tell us what you think and give us feedback.<br>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Image Section (Right) -->
+                <div class="col-md-6">
+                    <img src="images/area 2.jpg" class="img-fluid w-100" alt="Expertise Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Button -->
+        <button id="chat-toggle" class="chatbtn">
+            <i class="fa-solid fa-comment"></i>&nbsp;&nbsp;&nbsp;Let's chat!
+        </button>
+
+        <!-- Chatbox -->
+        <div class="chatbox" id="chatbox">
+            <div class="chatbox-header">
+                Clinical Psychotherapist
+                <br>We’ll reply as soon as we can
+                <button id="close-chat">×</button>
+            </div>
+            <div class="chatbox-body"></div>
+            <div class="chatbox-footer">
+                <button><i class="fa-regular fa-face-smile"></i></button>
+                <button id="attachment-btn"><i class="fa-solid fa-paperclip"></i></button>
+                <input type="text" id="chat-input" placeholder="Write your message...">
+                <button class="send-btn" id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="jsfile.js"></script>
+    </body>
+</html>
