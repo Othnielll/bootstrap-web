@@ -179,19 +179,13 @@ html, body {
 .imgcon3{
     background: #F2F2F2;
     gap: 100px;
+
 }
 
-.full-height {
-    min-height: 100vh;
-    height: auto; 
-    overflow: hidden;
-}
-
-.imagecontainer3 img {
-    min-height: 100%;
-    height: auto;
+.imagecontainer3 img{
     width: 100%;
-    margin-left: -12px;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -233,7 +227,6 @@ textarea{
 .formcon {
     max-width: 500px;
     width: 100%;
-    margin:auto;
     padding-top: 70px;
     margin-bottom: 70px;
 
